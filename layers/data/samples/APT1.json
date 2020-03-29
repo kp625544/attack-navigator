@@ -1,0 +1,233 @@
+{
+	"name": "APT1",
+	"version": "2.2",
+	"domain": "mitre-enterprise",
+	"description": "",
+	"filters": {
+		"stages": [
+			"act"
+		],
+		"platforms": [
+			"Windows",
+			"Linux",
+			"macOS"
+		]
+	},
+	"sorting": 0,
+	"viewMode": 0,
+	"hideDisabled": false,
+	"techniques": [
+		{
+			"techniqueID": "T1087",
+			"tactic": "discovery",
+			"score": 70,
+			"color": "",
+			"comment": "used by APT1",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1119",
+			"tactic": "collection",
+			"score": 70,
+			"color": "",
+			"comment": "used by APT1",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1059",
+			"tactic": "execution",
+			"score": 70,
+			"color": "",
+			"comment": "used by APT1",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1003",
+			"tactic": "credential-access",
+			"score": 70,
+			"color": "",
+			"comment": "used by APT1",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1002",
+			"tactic": "exfiltration",
+			"score": 70,
+			"color": "",
+			"comment": "used by APT1",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1005",
+			"tactic": "collection",
+			"score": 70,
+			"color": "",
+			"comment": "used by APT1",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1114",
+			"tactic": "collection",
+			"score": 70,
+			"color": "",
+			"comment": "used by APT1",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1036",
+			"tactic": "defense-evasion",
+			"score": 70,
+			"color": "",
+			"comment": "used by APT1",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1135",
+			"tactic": "discovery",
+			"score": 70,
+			"color": "",
+			"comment": "used by APT1",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1075",
+			"tactic": "lateral-movement",
+			"score": 70,
+			"color": "",
+			"comment": "used by APT1",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1057",
+			"tactic": "discovery",
+			"score": 70,
+			"color": "",
+			"comment": "used by APT1",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1076",
+			"tactic": "lateral-movement",
+			"score": 70,
+			"color": "",
+			"comment": "used by APT1",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1064",
+			"tactic": "defense-evasion",
+			"score": 70,
+			"color": "",
+			"comment": "used by APT1",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1064",
+			"tactic": "execution",
+			"score": 70,
+			"color": "",
+			"comment": "used by APT1",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1016",
+			"tactic": "discovery",
+			"score": 70,
+			"color": "",
+			"comment": "used by APT1",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1049",
+			"tactic": "discovery",
+			"score": 70,
+			"color": "",
+			"comment": "used by APT1",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1007",
+			"tactic": "discovery",
+			"score": 70,
+			"color": "",
+			"comment": "used by APT1",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1330",
+			"tactic": "establish-&-maintain-infrastructure",
+			"score": 70,
+			"color": "",
+			"comment": "used by APT1",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1334",
+			"tactic": "establish-&-maintain-infrastructure",
+			"score": 70,
+			"color": "",
+			"comment": "used by APT1",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1326",
+			"tactic": "establish-&-maintain-infrastructure",
+			"score": 70,
+			"color": "",
+			"comment": "used by APT1",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1333",
+			"tactic": "establish-&-maintain-infrastructure",
+			"score": 70,
+			"color": "",
+			"comment": "used by APT1",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1346",
+			"tactic": "build-capabilities",
+			"score": 70,
+			"color": "",
+			"comment": "used by APT1",
+			"enabled": true,
+			"metadata": []
+		}
+	],
+	"gradient": {
+		"colors": [
+			"#8ec843",
+			"#ffe766",
+			"#ff6666"
+		],
+		"minValue": 0,
+		"maxValue": 100
+	},
+	"legendItems": [],
+	"metadata": [],
+	"showTacticRowBackground": false,
+	"tacticRowBackground": "#dddddd",
+	"selectTechniquesAcrossTactics": true
+}
